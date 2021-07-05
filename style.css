@@ -7,13 +7,19 @@ body{
 .color{
   color:orangered;
 }
-section{
+.flexible{
     display:flex;
     margin-bottom:10% ;
 }
 .top{
     background-image: url(top-banner.png);
     background-repeat:no-repeat ;
+}
+.dream{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 .half{
     width:50%;
@@ -26,6 +32,9 @@ section{
 h1{
     font-size:300%;
 }
+h3{
+    color:red;
+}
 .link-check{
     text-decoration: none;
     background-image: linear-gradient(blue,red);
@@ -33,4 +42,34 @@ h1{
     padding:10px 20px ;
     border-radius: 10%;
     
+}
+
+.new{
+    box-shadow: 1px 5px 60px gray;
+   padding: 10px; 
+   margin:10px ;
+   width: 50%;
+   border-radius: 15px;
+  
+
+}
+.ex-pre{
+    background-image:url("exp-bg.png") ;
+    background-repeat: no-repeat;
+}
+#pick{
+ border-left: 7px solid;
+
+ border-image: linear-gradient(red, blue);
+ border-image-slice: 1;
+}
+#jerry{
+    border-left: 7px solid;
+   
+    border-image: linear-gradient(yellow,purple);
+    border-image-slice: 1 ;
+}
+
+footer p{
+    text-align: center;
 }
